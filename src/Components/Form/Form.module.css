@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding: 20px ;
+    text-align: left;
+    align-items: center;
+    height: 100%;
+    /* margin: 20px 20px; */
+    
+}
+
+.container > div {
+    flex: 1; 
+  }
+  .maintext{
+    font-size: 24px;
+    color: #3CC3F2;
+  }
+  .form{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .email{
+height: 40px;
+width: 280px;
+border-radius: 2px;
+border: 1px solid grey;
+padding-left: 30px;
+  }
+  .btn{
+    height: 40px;
+    width: 140px;
+    border-radius: 2px;
+    border: none;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+  }
+  @media (max-width:480px) {
+    .container{
+        flex-wrap: wrap;
+        gap: 40px;
+        
+    }
+  }
+  @media (max-width:720px) {
+    .container{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+  }
